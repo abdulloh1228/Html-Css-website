@@ -1,0 +1,157 @@
+body, h1, h2, h3, ul, p c{
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: #353535;
+    border-bottom: 4px solid coral;
+}
+
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+
+#header .logo {
+    color: coral;
+}
+
+.navbar {
+    float: right;
+}
+.navbar li {
+    display: inline;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 25px  15px;
+    display: inline-block;
+}
+
+.navbar li a:hover {
+    color: coral;
+}
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+#banner {
+    height: 75vh;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center  -100px;
+    text-align: center;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+#banner h1 {
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding: 15opx;
+}
+
+#newslatter {
+    background-color: #353535;
+    color: #fff;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+
+#newslatter .left {
+    float: left;
+}
+#newslatter .right {
+    float: right;
+}
+
+#newslatter input {
+    padding: 3px;
+}
+.button {
+padding: 5px 15px;
+border: none;
+background-color: coral;
+color: #fff;
+margin-left: 15px;
+}
+
+#courses {
+    padding: 30px;
+}
+
+.box{
+    width: 22%;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+    border: 1px solid rgb(68, 19, 96);
+    margin: 0 4px;
+    padding: 4px;
+}
+.box img {
+    max-width: 100%;
+    width: 120px;
+}
+
+.clr {
+    clear: both;
+}
+
+#footer {
+    padding: 25px 0;
+    text-align: center;
+    background-color: #353535;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.main-content {
+    width: 65%;
+    float: left;
+}
+.saidbar {
+    width: 30%;
+    float: right; 
+    margin-top: 38px;
+}
+#about-us {
+    margin: 40px 0;
+    font-family: sans-serif;
+}
+
+.bg-dark {
+    background-color:  #353535;
+    color: #fff;
+    padding: 10px;
+    border: 2px solid coral;
+}
+
+.service-box {
+    padding: 30px;
+    margin: 15px 0;
+    background-color: rgb(217, 217, 210);
+    border: 1px solid #302a2a;
+}
+
+label {
+    display: block;
+    margin: 10px;
+}
+
+.form-input, textarea{
+    width: 100%;
+    padding: 10px 0;
+}
+
+.active {
+    color: coral !important;
+}
